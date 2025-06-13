@@ -7,8 +7,8 @@
     app.use(express.json());
 
     let usuarios = [
-    { id: 1, nome: "Alice" },
-    { id: 2, nome: "Bob" }
+    { id: 1, nome: "Carvalho Silva" },
+    { id: 2, nome: "Louis Pereira" }
     ];
 
     app.get('/usuarios', (req, res) => {
